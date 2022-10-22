@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-    //Prompt the user to input the size of the board as well as the probability of a mine
+    //Prompt the user to input the size of the board and the probability of a mine
 		Scanner in = new Scanner(System.in);
 		System.out.println("How many columns?");
 		int cols = in.nextInt();
